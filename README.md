@@ -120,13 +120,13 @@ scanner.replicas: "Set quantity"
   ```
 
 * **Creating an ingress to access the Aqua Console**
-* IBM Cloud Private includes a bundled ingress controller. An example ingress yaml is included in the repo.
+* IBM Cloud Private includes a bundled ingress controller. An example ingress config yaml is included in the repo with the necessary annotations.
 ```sh
-kubectl apply -f ingress-example.yaml
+kubectl apply -f icp-ingress-example.yaml
 ```
 
 * **Alternative Ingress Configuration**
-* The services charts are set to create `ClusterIP' ingress types An example ingress yaml is included in the repo.
+* TLS configuration for ingress via the values.yaml `web.ingress` section available.
 
 
 ## Installing the Charts
