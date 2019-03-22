@@ -109,7 +109,7 @@ web:
     tag: "4.0"
     pullPolicy: IfNotPresent
   service:
-    type: ClusterIP
+    type: NodePort
     externalPort: 8080
   encryptionKey:
   ingress:
