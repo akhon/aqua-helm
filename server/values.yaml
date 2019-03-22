@@ -4,9 +4,9 @@ imageCredentials:
   name: csp-registry-secret # example
   repositoryUriPrefix: "registry.aquasec.com" # for dockerhub - "docker.io"
   registry: "registry.aquasec.com" #REQUIRED only if create is true, for dockerhub - "index.docker.io/v1/"
-  username: ""
-  password: ""
-  email: "example@gmail.com"
+  username: "andrey.khon@verygood.systems"
+  password: "jarApnayd"
+  email: "andrey.khon@verygood.systems"
 
 rbac:
   enabled: true
@@ -15,8 +15,8 @@ rbac:
 privileged: true
 
 admin:
-  token:
-  password:
+  token: "xxbvAVUg0qsoH8Ip7WnaJpqM8DIjx9emN3ny0erPQ2k3RCuK7c6jcIG--0a3KMCkOngBa2943fVkg4h0J4Fu0b3kyL18m-_R1WMaaZtrtHt33Ih64wzxK2buGZ7DrcsLuQryLja4L_o421bXiiDU9NlYc1VelHwzunXcmt-0SoLjulRhn4_BjNto0ixTa3sXFNT5sefUUmP4voNNDcj0bxNtZH2RWEYB85o3FFOcv0amegoAXjKWuOnHnokgmAZL2c2kaoWNE63h-RUpcnxB67mAuOetdM0eU8hREQBRCnM0wuRNjJ3OEhFXpO-uMxhGmDEZTXKIQbfn-vpQVQsD_MBrPH44VMiTP4Wwz6DrAdaJktgzmqBBR7R5e6qtIweKo7O7YoXd67Wrw8rNmSQTagQSzsg9wayndObN7aCSQFoTJfI4aheTWAV3J4nxP8jQJqrx3VSktxEpEM0_scThU8UM3lbxNmWH0npOof_dK3vCpGWjW5YWjIwArlgaINXdgXgFeq5K93TqmdPURnniZU5puA=="
+  password: vgs-aqua-password
   clustermode: false
 
 docker:
